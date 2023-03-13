@@ -1,0 +1,2663 @@
+<?xml version="1.0"?>
+<GUITree version="4">
+ <Flag_List Affiliation="arti">
+  <NoImages />
+ </Flag_List>
+ <Flag_List>
+  <NoSelectRect />
+ </Flag_List>
+ <FileName>CLA_2AGUI.xml</FileName>
+ <ViewRect_List>
+  <Rect SubComp="LA2S,LA2M" bottom="271" left="0" right="659" top="0" />
+  <Rect SubComp="LL2S,LL2M" bottom="810" left="0" right="759" top="0" />
+ </ViewRect_List>
+ <Pict_List>
+  <Image ResID="13950" Type="About">
+   <PositionRect bottom="294" left="4" right="294" top="4" />
+  </Image>
+  <Image ResID="15000" Type="Base" />
+  <AdditionalImageList>
+   <Image ResID="15000" Type="Base" />
+   <Image ResID="15001" Type="Base">
+    <PositionRect height="45" left="264" top="87" width="130" />
+   </Image>
+  </AdditionalImageList>
+  <AdditionalImageList>
+   <Image ResID="15000" Type="Base" />
+   <Image ResID="15002" Type="Base">
+    <PositionRect height="45" left="264" top="87" width="130" />
+   </Image>
+  </AdditionalImageList>
+  <Image ResID="30000" SubComp="LA2M,LA2S" Type="Icon" />
+ </Pict_List>
+ <ToolBarControl_List>
+  <ToolButton type="Preset">
+   <TextWin Type="Value">
+    <Font>
+     <Color blue="180" green="180" red="180" />
+    </Font>
+   </TextWin>
+   <ImageList>
+    <Selection>
+     <Image ResID="400" Type="Idle" />
+     <Image ResID="401" Type="Selected" />
+    </Selection>
+   </ImageList>
+   <ControlRect left="285" top="2" width="149" height="15" />
+  </ToolButton>
+  <ToolButton type="PrevPreset">
+   <ImageList>
+    <Selection>
+     <Image ResID="402" Type="Idle" />
+     <Image ResID="403" Type="Selected" />
+    </Selection>
+   </ImageList>
+   <ControlRect left="436" top="2" width="32" height="15" />
+  </ToolButton>
+  <ToolButton type="NextPreset">
+   <ImageList>
+    <Selection>
+     <Image ResID="404" Type="Idle" />
+     <Image ResID="405" Type="Selected" />
+    </Selection>
+   </ImageList>
+   <ControlRect left="470" top="2" width="32" height="15" />
+  </ToolButton>
+  <ToolButton type="Undo">
+   <ImageList>
+    <Selection>
+     <Image ResID="406" Type="Idle" />
+     <Image ResID="407" Type="Selected" />
+     <Image ResID="408" Type="Disabled" />
+    </Selection>
+   </ImageList>
+   <ControlRect left="217" top="2" width="32" height="15" />
+  </ToolButton>
+  <ToolButton type="Redo">
+   <ImageList>
+    <Selection>
+     <Image ResID="409" Type="Idle" />
+     <Image ResID="410" Type="Selected" />
+     <Image ResID="411" Type="Disabled" />
+    </Selection>
+   </ImageList>
+   <ControlRect left="251" top="2" width="32" height="15" />
+  </ToolButton>
+  <ToolButton type="Switch">
+   <TextWin Type="Value">
+    <Font>
+     <Color blue="180" green="180" red="180" />
+    </Font>
+   </TextWin>
+   <ImageList>
+    <Selection>
+     <Image ResID="412" Type="Idle" />
+     <Image ResID="413" Type="Selected" />
+    </Selection>
+   </ImageList>
+   <ControlRect left="550" top="2" width="44" height="15" />
+  </ToolButton>
+  <ToolButton type="Save">
+   <TextWin Type="Value">
+    <Font>
+     <Color blue="180" green="180" red="180" />
+    </Font>
+   </TextWin>
+   <ImageList>
+    <Selection>
+     <Image ResID="412" Type="Idle" />
+     <Image ResID="413" Type="Selected" />
+    </Selection>
+   </ImageList>
+   <ControlRect left="596" top="2" width="44" height="15" />
+   <TextString>Save</TextString>
+  </ToolButton>
+  <ToolButton type="Copy">
+   <TextWin Type="Value">
+    <Font>
+     <Color blue="180" green="180" red="180" />
+    </Font>
+   </TextWin>
+   <ImageList>
+    <Selection>
+     <Image ResID="412" Type="Idle" />
+     <Image ResID="413" Type="Selected" />
+    </Selection>
+   </ImageList>
+   <ControlRect left="504" top="2" width="44" height="15" />
+   <TextString>A ➞ B</TextString>
+   <TextString>B ➞ A</TextString>
+  </ToolButton>
+  <ToolButton type="Help">
+   <ImageList>
+    <Selection>
+     <Image ResID="416" Type="Idle" />
+     <Image ResID="417" Type="Selected" />
+    </Selection>
+   </ImageList>
+   <ControlRect left="642" top="2" width="15" height="15" />
+  </ToolButton>
+  <ToolButton type="About">
+   <ControlRect left="2" top="2" width="213" height="15" />
+  </ToolButton>
+ </ToolBarControl_List>
+ <TabOrder_List>
+  <TabHORIZ>
+   <Control Name="Gain" />
+   <Control Name="Peak Reduction" />
+   <Control Name="VU Display" />
+   <Control Name="Comp/Limiter" />
+   <Control Name="Analog" />
+   <Control Name="Hi Freq" />
+   <Control Name="Mix" />
+   <Control Name="Trim" />
+  </TabHORIZ>
+ </TabOrder_List>
+ <ControlOrder_List>
+  <ControlOrder>
+   <Control Name="Gain" />
+   <Control Name="Gain_0" />
+   <Control Name="Gain_1" />
+   <Control Name="Gain_2" />
+   <Control Name="Gain_3" />
+   <Control Name="Gain_4" />
+   <Control Name="Gain_5" />
+   <Control Name="Gain_6" />
+   <Control Name="Gain_7" />
+   <Control Name="Gain_8" />
+   <Control Name="Gain_9" />
+   <Control Name="Gain_10" />
+   <Control Name="Peak Reduction" />
+   <Control Name="Peak Reduction_0" />
+   <Control Name="Peak Reduction_1" />
+   <Control Name="Peak Reduction_2" />
+   <Control Name="Peak Reduction_3" />
+   <Control Name="Peak Reduction_4" />
+   <Control Name="Peak Reduction_5" />
+   <Control Name="Peak Reduction_6" />
+   <Control Name="Peak Reduction_7" />
+   <Control Name="Peak Reduction_8" />
+   <Control Name="Peak Reduction_9" />
+   <Control Name="Peak Reduction_10" />
+   <Control Name="Comp/Limiter" />
+   <Control Name="Comp/Limiter Comp" />
+   <Control Name="Comp/Limiter Limiter" />
+   <Control Name="Hi Freq" />
+   <Control Name="Analog" />
+   <Control Name="VU Display" />
+   <Control Name="VU Display In" />
+   <Control Name="VU Display GR" />
+   <Control Name="VU Display Out" />
+   <Control Name="Meter" />
+   <Control Name="PeakVU" />
+   <Control Name="GR-Meter" />
+   <Control Name="Mix" />
+   <Control Name="Trim" />
+  </ControlOrder>
+ </ControlOrder_List>
+ <Control_List>
+  <cCONTROLLER Name="VU Display">
+   <Class Type="Toggle" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>toggle</Direction>
+   <ControlRect height="91" left="544" top="57" width="109" />
+   <Flags>
+    <Automatable />
+    <DisplayCursor />
+    <NoMultipleSelection />
+   </Flags>
+   <ImageList>
+    <Image ResID="449" Type="AlphaSelection" />
+    <Selection>
+     <Image ResID="445" Type="Idle" />
+     <Image ResID="446" Type="Automated" />
+     <Image ResID="448" Type="Selected" />
+     <Image ResID="447" Type="Active" />
+    </Selection>
+   </ImageList>
+   <ParameterList>
+    <Param Name="PARAM_METER" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <BitmapWin Type="AlgBitmap">
+      <ImageList>
+       <Image ResID="440" />
+       <Image ResID="441" />
+       <Image ResID="442" />
+      </ImageList>
+     </BitmapWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="VU Display In">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="17" left="535" top="60" width="44" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_METER" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="0">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="VU Display GR">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="17" left="579" top="52" width="29" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_METER" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="1">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="VU Display Out">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="17" left="608" top="60" width="50" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_METER" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="2">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Analog">
+   <Class Type="RadioButton">
+    <NumVertDivisions>1</NumVertDivisions>
+    <NumHorizDivisions>3</NumHorizDivisions>
+   </Class>
+   <MaxSelection>3</MaxSelection>
+   <Direction>toggle</Direction>
+   <ControlRect height="21" left="121" top="241" width="116" />
+   <Flags>
+    <Automatable />
+    <NoMultipleSelection />
+   </Flags>
+   <ImageList Type="BackGround">
+    <Image ResID="780" />
+   </ImageList>
+   <ImageList>
+    <Image ResID="781" Type="ForeGround" />
+   </ImageList>
+   <ImageList>
+    <Image ResID="789" Type="AlphaSelection" />
+   </ImageList>
+   <ImageList>
+    <Selection>
+     <Image ResID="785" Type="Idle" />
+     <Image ResID="786" Type="Automated" />
+     <Image ResID="787" Type="Selected" />
+     <Image ResID="788" Type="Active" />
+    </Selection>
+   </ImageList>
+   <ParameterList>
+    <Param Name="PARAM_ANALOG" UpdateGraphics="true">
+     <RegisterType>RadioButton</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Hi Freq">
+   <Class Type="RotationKnob">
+    <Image ResID="11400" SequenceSteps="51" />
+   </Class>
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="34" left="315" top="233" width="34" />
+   <ControlSurface Type="Rotary">
+    <LedsPosition Orientation="MinLeftMaxRight" Display="Wrap" />
+   </ControlSurface>
+   <Flags>
+    <DisplayCursor />
+    <Automatable />
+    <ReciveTextEntery />
+    <IgnoreMouseOnTextWin />
+    <NoMultipleSelection />
+   </Flags>
+   <ImageList>
+    <Image ResID="11499" Type="AlphaSelection" />
+    <Selection>
+     <Image ResID="11495" Type="Idle" />
+     <Image ResID="11496" Type="Automated" />
+     <Image ResID="11498" Type="Selected" />
+     <Image ResID="11497" Type="Active" />
+    </Selection>
+   </ImageList>
+   <ParameterList>
+    <Param Name="PARAM_HF_CONTOUR" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value">
+      <Font>
+       <Color blue="200" green="200" red="200" />
+      </Font>
+      <PositionRect height="13" left="353" top="228" width="37" />
+      <ShowOnHover />
+      <Image ResID="1000" Type="EraseBitmap" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Meter">
+   <Class Type="RotationKnob">
+    <Image ResID="11300" SequenceSteps="67" />
+   </Class>
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="54" left="275" top="97" width="116" />
+   <Flags>
+    <NoMultipleSelection />
+    <HideWhenDisabled />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_DISPLAY_VU_L" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="PeakVU">
+   <Class Type="Toggle" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>toggle</Direction>
+   <ControlRect height="11" left="390" top="85" width="11" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_CLIP" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <BitmapWin Type="AlgBitmap">
+      <ImageList>
+       <Image ResID="550" />
+       <Image ResID="551" />
+      </ImageList>
+     </BitmapWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="PeakThresh" SubComp="LL2S,LL2M">
+   <Class Type="RotationKnob">
+    <Image ResID="812" SequenceSteps="10" />
+   </Class>
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="302" left="74" right="91" top="286" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_THRESH_LED" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction">
+   <Class Custom="True" Type="RotationKnob_Scaled">
+    <Image ResID="11501" SequenceSteps="69" />
+    <AngleRange maxAngle="331" minAngle="29" />
+    <KnobCenter x="48" y="48" />
+   </Class>
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="92" left="434" top="77" width="95" />
+   <ControlSurface Type="Rotary">
+    <LedsPosition Orientation="MinLeftMaxRight" Display="Wrap" />
+   </ControlSurface>
+   <Flags>
+    <DisplayCursor />
+    <Automatable />
+    <ReciveTextEntery />
+    <IgnoreMouseOnTextWin />
+    <NoMultipleSelection />
+   </Flags>
+   <ImageList>
+    <Image ResID="11599" Type="AlphaSelection" />
+    <Image ResID="11594" Type="ScaleMarksMask" />
+    <Selection>
+     <Image ResID="11595" Type="Idle" />
+     <Image ResID="11596" Type="Automated" />
+     <Image ResID="11598" Type="Selected" />
+     <Image ResID="11597" Type="Active" />
+    </Selection>
+   </ImageList>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value">
+      <Font>
+       <Color blue="200" green="200" red="200" />
+      </Font>
+      <PositionRect height="13" left="462" top="194" width="37" />
+      <ShowOnHover />
+      <Image ResID="1000" Type="EraseBitmap" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction_0">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="15" left="450" top="154" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="0">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction_1">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="15" left="437" top="139" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="43">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction_2">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="430" top="119" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="101">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction_3">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="434" top="96" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="191">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction_4">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="450" top="80" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="400">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction_5">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="473" top="73" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="671">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction_6">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="495" top="80" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="788">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction_7">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="511" top="96" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="863">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction_8">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="515" top="119" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="919">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction_9">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="15" left="509" top="139" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="963">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Peak Reduction_10">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="15" left="493" top="154" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_GAIN_REDUCTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="1000">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Side_Chain_Feedback" SubComp="LL2M,LL2S">
+   <Class Type="Toggle" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>toggle</Direction>
+   <ControlRect bottom="290" left="100" right="140" top="280" />
+   <Flags>
+    <DefaultDraw />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_FEEDBACK" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="280" left="100" right="140" top="270" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain">
+   <Class Custom="True" Type="RotationKnob_Scaled">
+    <Image ResID="11501" SequenceSteps="69" />
+    <AngleRange maxAngle="331" minAngle="29" />
+    <KnobCenter x="48" y="48" />
+   </Class>
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="92" left="133" top="77" width="95" />
+   <ControlSurface Type="Rotary">
+    <LedsPosition Orientation="MinLeftMaxRight" Display="Wrap" />
+   </ControlSurface>
+   <Flags>
+    <DisplayCursor />
+    <Automatable />
+    <ReciveTextEntery />
+    <IgnoreMouseOnTextWin />
+    <NoMultipleSelection />
+   </Flags>
+   <ImageList>
+    <Image ResID="11599" Type="AlphaSelection" />
+    <Image ResID="11594" Type="ScaleMarksMask" />
+    <Selection>
+     <Image ResID="11595" Type="Idle" />
+     <Image ResID="11596" Type="Automated" />
+     <Image ResID="11598" Type="Selected" />
+     <Image ResID="11597" Type="Active" />
+    </Selection>
+   </ImageList>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value">
+      <Font>
+       <Color blue="200" green="200" red="200" />
+      </Font>
+      <PositionRect height="13" left="162" top="194" width="37" />
+      <ShowOnHover />
+      <Image ResID="1000" Type="EraseBitmap" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain_0">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="15" left="149" top="154" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="0">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain_1">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="15" left="136" top="139" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="46">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain_2">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="129" top="119" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="111">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain_3">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="133" top="96" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="225">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain_4">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="149" top="80" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="535">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain_5">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="172" top="73" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="706">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain_6">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="194" top="80" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="802">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain_7">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="210" top="96" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="870">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain_8">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="16" left="214" top="119" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="922">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain_9">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="15" left="208" top="139" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="964">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Gain_10">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="15" left="192" top="154" width="18" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="1000">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="ATTACK_GAIN" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="320" left="30" right="70" top="310" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_ATTACK_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="310" left="20" right="80" top="300" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="RELEASE_1" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="350" left="170" right="210" top="340" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_RELEASE_1" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="340" left="160" right="220" top="330" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="RELEASE_2" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="350" left="230" right="270" top="340" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_RELEASE_2" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="340" left="220" right="280" top="330" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="DISTORTION" SubComp="LL2M,LL2S">
+   <Class Type="Toggle" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="380" left="170" right="210" top="370" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_DISTORTION" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="370" left="155" right="235" top="360" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER1_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="440" left="20" right="60" top="430" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER1_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="430" left="20" right="60" top="420" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER1_Q" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="440" left="80" right="120" top="430" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER1_Q" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="430" left="80" right="120" top="420" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER1_G0" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="440" left="140" right="180" top="430" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER1_G0" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="430" left="140" right="180" top="420" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER1_G1" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="440" left="200" right="240" top="430" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER1_G1" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="430" left="200" right="240" top="420" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER1_G2" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="440" left="260" right="300" top="430" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER1_G2" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="430" left="260" right="300" top="420" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER2_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="460" left="20" right="60" top="450" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER2_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="450" left="20" right="60" top="440" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER2_Q" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="460" left="80" right="120" top="450" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER2_Q" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="450" left="80" right="120" top="440" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER2_G0" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="460" left="140" right="180" top="450" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER2_G0" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="450" left="140" right="180" top="440" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER2_G1" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="460" left="200" right="240" top="450" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER2_G1" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="450" left="200" right="240" top="440" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER2_G2" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="460" left="260" right="300" top="450" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER2_G2" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="450" left="260" right="300" top="440" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER3_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="480" left="20" right="60" top="470" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER3_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="470" left="20" right="60" top="460" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER3_Q" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="480" left="80" right="120" top="470" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER3_Q" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="470" left="80" right="120" top="460" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER3_G0" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="480" left="140" right="180" top="470" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER3_G0" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="470" left="140" right="180" top="460" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER3_G1" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="480" left="200" right="240" top="470" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER3_G1" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="470" left="200" right="240" top="460" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER3_G2" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="480" left="260" right="300" top="470" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER3_G2" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="470" left="260" right="300" top="460" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER4_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="500" left="20" right="60" top="490" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER4_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="490" left="20" right="60" top="480" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER4_Q" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="500" left="80" right="120" top="490" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER4_Q" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="490" left="80" right="120" top="480" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER4_G0" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="500" left="140" right="180" top="490" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER4_G0" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="490" left="140" right="180" top="480" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER4_G1" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="500" left="200" right="240" top="490" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER4_G1" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="490" left="200" right="240" top="480" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER4_G2" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="500" left="260" right="300" top="490" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER4_G2" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="490" left="260" right="300" top="480" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER5_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="520" left="20" right="60" top="510" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER5_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="510" left="20" right="60" top="500" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER5_Q" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="520" left="80" right="120" top="510" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER5_Q" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="510" left="80" right="120" top="500" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER5_G0" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="520" left="140" right="180" top="510" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER5_G0" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="510" left="140" right="180" top="500" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER5_G1" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="520" left="200" right="240" top="510" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER5_G1" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="510" left="200" right="240" top="500" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER5_G2" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="520" left="260" right="300" top="510" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER5_G2" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="510" left="260" right="300" top="500" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_LOW_CLIPPER_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="540" left="20" right="60" top="530" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_LOW_CLIPPER_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="530" left="20" right="60" top="520" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_LOW_CLIPPER_THRESHOLD" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="560" left="20" right="60" top="550" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_LOW_CLIPPER_THRESHOLD" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="550" left="10" right="70" top="540" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_LOW_CLIPPER_ON_OFF" SubComp="LL2M,LL2S">
+   <Class Type="Toggle" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>toggle</Direction>
+   <ControlRect bottom="540" left="100" right="140" top="530" />
+   <Flags>
+    <NoMultipleSelection />
+    <DefaultDraw />
+    <DisplayCursor />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_LOW_CLIPPER_ON_OFF" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="530" left="80" right="160" top="520" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_LOW_CLIPPER_RATIO" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="560" left="100" right="140" top="550" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_LOW_CLIPPER_RATIO" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="550" left="80" right="160" top="540" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_LOW_CLIPPER_ATTACK" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="580" left="20" right="60" top="570" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_LOW_CLIPPER_ATTACK" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="570" left="10" right="70" top="560" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_LOW_CLIPPER_RELEASE" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="580" left="100" right="140" top="570" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_LOW_CLIPPER_RELEASE" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="570" left="80" right="160" top="560" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_HIGH_CLIPPER_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="540" left="220" right="260" top="530" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_HIGH_CLIPPER_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="530" left="220" right="260" top="520" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_HIGH_CLIPPER_THRESHOLD" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="560" left="220" right="260" top="550" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_HIGH_CLIPPER_THRESHOLD" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="550" left="210" right="270" top="540" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_HIGH_CLIPPER_ON_OFF" SubComp="LL2M,LL2S">
+   <Class Type="Toggle" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>toggle</Direction>
+   <ControlRect bottom="540" left="300" right="340" top="530" />
+   <Flags>
+    <NoMultipleSelection />
+    <DefaultDraw />
+    <DisplayCursor />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_HIGH_CLIPPER_ON_OFF" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="530" left="280" right="360" top="520" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_HIGH_CLIPPER_RATIO" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="560" left="300" right="340" top="550" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_HIGH_CLIPPER_RATIO" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="550" left="280" right="360" top="540" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_HIGH_CLIPPER_ATTACK" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="580" left="220" right="260" top="570" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_HIGH_CLIPPER_ATTACK" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="570" left="210" right="270" top="560" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="SIDE_CHAIN_HIGH_CLIPPER_RELEASE" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="580" left="300" right="340" top="570" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_SIDE_CHAIN_HIGH_CLIPPER_RELEASE" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="570" left="280" right="360" top="560" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Comp/Limiter">
+   <Class Type="Toggle" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>toggle</Direction>
+   <ControlRect height="62" left="42" top="144" width="51" />
+   <Flags>
+    <Automatable />
+    <NoMultipleSelection />
+   </Flags>
+   <ImageList>
+    <Image ResID="439" Type="AlphaSelection" />
+    <Selection>
+     <Image ResID="435" Type="Idle" />
+     <Image ResID="436" Type="Automated" />
+     <Image ResID="437" Type="Selected" />
+     <Image ResID="438" Type="Active" />
+    </Selection>
+   </ImageList>
+   <ParameterList>
+    <Param Name="PARAM_COMP_LIMITER" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <BitmapWin Type="AlgBitmap">
+      <ImageList>
+       <Image ResID="430" />
+       <Image ResID="431" />
+      </ImageList>
+     </BitmapWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Comp/Limiter Comp">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="17" left="32" top="139" width="71" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_COMP_LIMITER" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="0">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Comp/Limiter Limiter">
+   <Class Type="Toggle" />
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="17" left="42" top="193" width="46" />
+   <Flags>
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_COMP_LIMITER" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType State="1">FixedState</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="LIMITER_FACTOR" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="350" left="400" right="440" top="340" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_LIMITER_FACTOR" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="340" left="390" right="460" top="330" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="HUM_G0" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="570" left="360" right="400" top="560" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_HUM_G0" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="560" left="360" right="400" top="550" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="HUM_T" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="570" left="420" right="460" top="560" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_HUM_T" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="560" left="420" right="460" top="550" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Hum" SubComp="LL2M,LL2S">
+   <Class Type="Toggle" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="630" left="20" right="60" top="620" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+    <NoMultipleSelection />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_HUM_ON_OFF" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="620" left="20" right="60" top="610" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="DC_OUT" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="380" left="260" right="300" top="370" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_DC_OUT" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="370" left="260" right="300" top="360" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="T_OUT" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="380" left="320" right="360" top="370" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_T_OUT" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="370" left="320" right="360" top="360" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="DISTORTION_G_OUT" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="380" left="380" right="420" top="370" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_DISTORTION_G_OUT" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="370" left="380" right="420" top="360" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="NOISE_GAIN" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="380" left="440" right="480" top="370" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_NOISE_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="370" left="430" right="490" top="360" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="THD_SUB_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="770" left="20" right="60" top="760" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_THD_SUB_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="760" left="20" right="60" top="750" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="THD_SUB_GAIN" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="790" left="20" right="60" top="780" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_THD_SUB_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="780" left="20" right="60" top="770" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="THD_LOW_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="770" left="80" right="120" top="760" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_THD_LOW_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="760" left="80" right="120" top="750" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="THD_LOW_GAIN" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="790" left="80" right="120" top="780" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_THD_LOW_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="780" left="80" right="120" top="770" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="THD_HIGH_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="770" left="140" right="180" top="760" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_THD_HIGH_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="760" left="140" right="180" top="750" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="THD_HIGH_GAIN" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="790" left="140" right="180" top="780" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_THD_HIGH_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="780" left="140" right="180" top="770" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="THD_IN_GAIN" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="770" left="200" right="240" top="760" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_THD_IN_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="760" left="200" right="240" top="750" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="THD_THRESH" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="790" left="200" right="240" top="780" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_THD_THRESH" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="780" left="200" right="240" top="770" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="THD_EVEN_GAIN" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="790" left="260" right="300" top="780" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_THD_EVEN_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="780" left="260" right="300" top="770" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="THD_OUT_GAIN" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="770" left="260" right="300" top="760" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_THD_OUT_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="760" left="260" right="300" top="750" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER6_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="670" left="20" right="60" top="660" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER6_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="660" left="20" right="60" top="650" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER6_Q" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="670" left="80" right="120" top="660" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER6_Q" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="660" left="80" right="120" top="650" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER6_G0" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="670" left="140" right="180" top="660" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER6_G0" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="660" left="140" right="180" top="650" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER6_G1" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="670" left="200" right="240" top="660" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER6_G1" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="660" left="200" right="240" top="650" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER6_G2" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="670" left="260" right="300" top="660" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER6_G2" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="660" left="260" right="300" top="650" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="GR-Meter">
+   <Class Type="RotationKnob">
+    <Image ResID="11600" SequenceSteps="45" />
+   </Class>
+   <MaxSelection>1</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="54" left="275" top="97" width="116" />
+   <Flags>
+    <NoMultipleSelection />
+    <HideWhenDisabled />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_DISPLAY_VU_GR" UpdateGraphics="true">
+     <RegisterType>MouseDown</RegisterType>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER7_FREQ" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="690" left="20" right="60" top="680" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER7_FREQ" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="680" left="20" right="60" top="670" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER7_Q" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="690" left="80" right="120" top="680" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER7_Q" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="680" left="80" right="120" top="670" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER7_G0" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="690" left="140" right="180" top="680" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER7_G0" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="680" left="140" right="180" top="670" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER7_G1" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="690" left="200" right="240" top="680" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER7_G1" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="680" left="200" right="240" top="670" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="FILTER7_G2" SubComp="LL2M,LL2S">
+   <Class Type="TextKnob" />
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect bottom="690" left="260" right="300" top="680" />
+   <Flags>
+    <DefaultDraw />
+    <DisplayCursor />
+    <ReciveTextEntery />
+   </Flags>
+   <ParameterList>
+    <Param Name="PARAM_FILTER7_G2" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value" />
+     <TextWin Type="Label">
+      <Font>
+       <Color blue="255" green="255" red="255" />
+      </Font>
+      <PositionRect bottom="680" left="260" right="300" top="670" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Trim">
+   <Class Type="RotationKnob">
+    <Image ResID="11800" SequenceSteps="69" />
+   </Class>
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="46" left="538" top="222" width="46" />
+   <Flags>
+    <DisplayCursor />
+    <Automatable />
+    <ReciveTextEntery />
+    <IgnoreMouseOnTextWin />
+    <SkinControl />
+   </Flags>
+   <ImageList>
+    <Image ResID="11799" Type="AlphaSelection" />
+    <Selection>
+     <Image ResID="11795" Type="Idle" />
+     <Image ResID="11796" Type="Automated" />
+     <Image ResID="11798" Type="Selected" />
+     <Image ResID="11797" Type="Active" />
+    </Selection>
+   </ImageList>
+   <ParameterList>
+    <Param Name="PARAM_TRIM" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value">
+      <Font>
+       <Color blue="200" green="200" red="200" />
+      </Font>
+      <PositionRect height="13" left="503" top="228" width="37" />
+      <ShowOnHover />
+      <Image ResID="1000" Type="EraseBitmap" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+  <cCONTROLLER Name="Mix">
+   <Class Type="RotationKnob">
+    <Image ResID="11800" SequenceSteps="69" />
+   </Class>
+   <MaxSelection>3</MaxSelection>
+   <Direction>vertical</Direction>
+   <ControlRect height="46" left="451" top="222" width="46" />
+   <Flags>
+    <DisplayCursor />
+    <Automatable />
+    <ReciveTextEntery />
+    <IgnoreMouseOnTextWin />
+    <SkinControl />
+   </Flags>
+   <ImageList>
+    <Image ResID="11799" Type="AlphaSelection" />
+    <Selection>
+     <Image ResID="11795" Type="Idle" />
+     <Image ResID="11796" Type="Automated" />
+     <Image ResID="11798" Type="Selected" />
+     <Image ResID="11797" Type="Active" />
+    </Selection>
+   </ImageList>
+   <ParameterList>
+    <Param Name="PARAM_WET_DRY_GAIN" UpdateGraphics="true">
+     <RegisterType>MouseVertical</RegisterType>
+     <RegisterType>OptionReset</RegisterType>
+     <TextWin Type="Value">
+      <Font>
+       <Color blue="200" green="200" red="200" />
+      </Font>
+      <PositionRect height="13" left="415" top="228" width="37" />
+      <ShowOnHover />
+      <Image ResID="1000" Type="EraseBitmap" />
+     </TextWin>
+    </Param>
+   </ParameterList>
+  </cCONTROLLER>
+ </Control_List>
+</GUITree>
